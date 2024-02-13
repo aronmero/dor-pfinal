@@ -1,6 +1,23 @@
-import { createApp } from 'vue'
-import './style.css'
-import './styles/style.scss'
-import App from './App.vue'
+import { createApp } from "vue";
+import { createPinia } from 'pinia'
+import router from "@/router/index.js";
+import App from "./App.vue";
+import "./style.css";
+import "./styles/style.scss";
 
-createApp(App).mount('#app')
+async function enableMocking() {
+  if (process.env.NODE_ENV !== "development") {
+    return;
+  }
+  const { worker } = await import("@/mocks/browser");
+
+  return worker.start();
+}
+
+enableMocking().then(() => {
+  const pinia = createPinia()
+  const app = createApp(App);
+  app.use(router);
+  app.use(pinia)
+  app.mount("#app");
+});
