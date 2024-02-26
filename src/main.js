@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import { createPinia } from 'pinia'
 import router from "@/router/index.js";
 import App from "./App.vue";
-import "./style.css";
+import "./styles/default.scss";
 import "./styles/style.scss";
 
 async function enableMocking() {
