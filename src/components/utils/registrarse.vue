@@ -9,7 +9,8 @@
       <button type="submit" class="button-register">Crear Cuenta</button>
     </form>
     <hr id="separador">
-    <button class="button-singin-link">Iniciar Sesion</button>
+    <RouterLink to="/login"><button class="button-singin-link">Iniciar Sesion</button></RouterLink>
+    
   </div>
 </template>
 <script>

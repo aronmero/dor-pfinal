@@ -7,10 +7,12 @@
       <button type="submit" class="button-singin">Entrar</button>
     </form>
     <hr id="separador">
-    <button class="button-register-link">Registrarse</button>
+    <RouterLink to="/register"><button class="button-register-link">Registrarse</button></RouterLink>
+    
   </div>
 </template>
 <script>
+import { RouterView } from 'vue-router';
 </script>
 <style>
   
