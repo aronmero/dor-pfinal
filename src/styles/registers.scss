@@ -1,0 +1,96 @@
+
+.logoRegisters {
+  width: 240px;
+  height: 70px;
+  background-color: #514D4D;
+  
+}
+
+
+
+//Formulario
+
+@mixin input($tam) {
+  width: $tam;
+  height: 40px;
+  background-color: $bg-color;
+  border-radius: 3;
+  border: none;
+  color: $text-color-black;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
+@mixin form() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form-singin {
+  @include form();
+}
+.input-singin {
+  @include input(225px);
+  margin: 20px 0px 0px 0px;
+}
+
+.singin-div {
+  @include form();
+  background-color: $accent-color;
+  padding: 30px;
+  margin: 100px;
+  min-width: 240px;
+  max-width: 650px;
+}
+
+
+
+//Botones
+
+@mixin button() {
+  background-color: $secondary-color;
+  color: $text-color-light;
+  border-radius: 8px;
+  width: 120px;
+  padding: 10px 20px;
+  border: none
+}
+
+.button-register {
+  @include button();
+}
+
+.button-singin {
+  @include button();
+  margin: 20px 0px 0px 0px;
+}
+
+//Separador
+
+@mixin hr($tam) {
+  width: $tam;
+  background-color: $bg-color;
+  height: 5px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+
+#separador-login {
+  @include hr(225px);
+}
+
+@media screen and (min-width: 600px) {
+  .input-singin {
+    @include input(400px)
+  }
+
+  #separador-login {
+    @include hr(500px)
+  }
+
+  .singin-div {
+    min-width: 500px;
+  }
+}

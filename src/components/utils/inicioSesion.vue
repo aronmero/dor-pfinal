@@ -1,10 +1,13 @@
 <template>
-  <div>
-    <form action="">
-      <input type="text" name="" id="inicio-sesion-user">
-      <input type="password" name="" id="inicio-sesion-password">
-      <input type="submit" value="">
+  <div class="singin-div">
+    <div class="logoRegisters"></div>
+    <form action="" id="form-singin">
+      <input type="text" name="" id="inicio-sesion-user" class="input-singin" placeholder="Nombre de usuario">
+      <input type="password" name="" id="inicio-sesion-password" class="input-singin" placeholder="Contraseña">
+      <button type="submit" class="button-singin">Entrar</button>
     </form>
+    <hr id="separador-login">
+    <button class="button-register">Registrarse</button>
   </div>
 </template>
 <script>
