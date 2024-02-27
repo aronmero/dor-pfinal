@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   { path: "/", name: "Home", component: () => import("@/views/home.vue") },
   { path: "/login", component: () => import("@/views/singIn.vue") },
+  { path: "/register", component: () => import("@/views/register.vue") },
 ];
  const router = createRouter({
   history: createWebHistory(),
