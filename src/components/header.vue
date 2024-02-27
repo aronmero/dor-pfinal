@@ -6,7 +6,7 @@
         class="logo"
     /></RouterLink>
     <div class="enlaces">
-      <RouterLink to="/"
+      <RouterLink to="/search"
         ><img src="@public/assets/utils/search.svg"
       /></RouterLink>
       <RouterLink to="/"
