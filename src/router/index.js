@@ -5,11 +5,10 @@ const routes = [
   { path: "/login", component: () => import("@/views/singIn.vue") },
   { path: "/register", component: () => import("@/views/register.vue") },
   { path: "/search", component: () => import("@/views/search.vue") },
-<<<<<<< HEAD
   { path: "/company_profile", component: () => import("@/views/CompanyProfile.vue") },
+  { path : "/public_profile", component: () => import("@/views/PublicProfile.vue")}
 
-=======
->>>>>>> c872cf8e1b8612dd76e36bcf75abc32d3baa702d
+
 ];
  const router = createRouter({
   history: createWebHistory(),
