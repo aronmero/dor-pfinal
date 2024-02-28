@@ -1,0 +1,3 @@
+Algunas de las vistas es necesario acceder mediante una url especifica: 
+Para acceder al login http://localhost:3010/login 
+Para acceder al register http://localhost:3010/register

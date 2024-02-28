@@ -1,12 +1,17 @@
 # Proyecto final dor
 
-Tras clonar el proyecto se debe utilizar el comando `npm run install`.
+Tras clonar el proyecto se debe utilizar el comando `npm install`.
 
 El `npm run dev` esta default en el puerto 3010.
 
 Las los componentes scss se puedes añadir al **main.js**. En la carpeta _/src/styles_ se almacenan los elementos scss, para añadir variables globales utilizar el variables.scss.
 
 El style.scss esta vinculado al main.js, se puede importar ahi elementos scss para utilizarlos.
+
+Algunas de las vistas es necesario acceder mediante una url especifica:
+Para acceder al login `http://localhost:3010/login`
+Para acceder al register `http://localhost:3010/register`
+
 
 ### Plugins utilizados
 

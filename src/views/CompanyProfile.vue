@@ -5,7 +5,9 @@ import Seguidos from "@/components/utils/seguidos.vue"; // Asegúrate de usar Pa
 </script>
 
 <template>
+
     <Header class="header" />
+
 
     <div id="cuerpo">
         <div id="perfil">
@@ -81,4 +83,5 @@ import Seguidos from "@/components/utils/seguidos.vue"; // Asegúrate de usar Pa
     position: absolute;
     top: 0;
 }
+
 </style>
