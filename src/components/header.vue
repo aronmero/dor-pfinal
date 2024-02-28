@@ -9,7 +9,7 @@
       <RouterLink to="/search"
         ><img src="@public/assets/utils/search.svg"
       /></RouterLink>
-      <RouterLink to="/"
+      <RouterLink to="/company_profile"
         ><img src="@public/assets/utils/user.svg"
       /></RouterLink>
       <RouterLink to="/"
