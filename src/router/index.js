@@ -9,7 +9,6 @@ const routes = [
   { path : "/public_profile", component: () => import("@/views/PublicProfile.vue")}
 
 
-
 ];
  const router = createRouter({
   history: createWebHistory(),
