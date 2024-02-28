@@ -17,4 +17,14 @@ import InicioSesion from "@/components/utils/inicioSesion.vue";
     justify-content: center;
     align-items: center;
   }
+
+  Header {
+    position: absolute;
+    top: 0px;
+  }
+
+  Footer {
+    position: absolute;
+    bottom: 0px;
+  }
 </style>
