@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <footer>
-    <RouterLink to="/"
+    <RouterLink to="/search"
       ><img src="@public/assets/utils/search.svg"
     /></RouterLink>
     <RouterLink to="/"><img src="@public/assets/utils/home.svg" /></RouterLink>
