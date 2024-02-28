@@ -5,7 +5,7 @@ import Seguidos from "@/components/utils/seguidos.vue"; // Asegúrate de usar Pa
 </script>
 
 <template>
-    <Header />
+    <Header class="header" />
 
     <div id="cuerpo">
         <div id="perfil">
@@ -73,7 +73,15 @@ import Seguidos from "@/components/utils/seguidos.vue"; // Asegúrate de usar Pa
 .publicacionesx {
     width: 200px;
     height: 200px;
-    background-color: #777272;
+    background-color: #8BB1CC;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    position: absolute;
+    top: 0;
 }
 </style>

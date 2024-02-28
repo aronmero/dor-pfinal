@@ -6,6 +6,7 @@ const routes = [
   { path: "/register", component: () => import("@/views/register.vue") },
   { path: "/search", component: () => import("@/views/search.vue") },
   { path: "/company_profile", component: () => import("@/views/CompanyProfile.vue") },
+  { path : "/public_profile", component: () => import("@/views/PublicProfile.vue")}
 
 
 ];
