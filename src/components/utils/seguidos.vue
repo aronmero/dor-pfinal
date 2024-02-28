@@ -1,9 +1,6 @@
 <template>
   <div id="cajaGrande">
-    
-    
     <div id="caja">
-
       <p>80</p>
       <p>Siguiendo</p>
     </div>
