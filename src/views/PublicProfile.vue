@@ -17,7 +17,7 @@
     import Header from "@/components/header.vue";
     import SeparadorComponent from "@/components/utils/SeparadorComponent.vue";
     import UsuarioComponent from "../components/utils/UsuarioComponent.vue";
-    import Footer from "@/components/Footer.vue";
+    import Footer from "@/components/footer.vue";
 
     
     export default {
